@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "606238534703",
+    "firebase_url": "https://nirlaba-bps-cianjur.firebaseio.com",
+    "project_id": "nirlaba-bps-cianjur",
+    "storage_bucket": "nirlaba-bps-cianjur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606238534703:android:55c081070e4c1d1a2deada",
+        "android_client_info": {
+          "package_name": "com.wildan.nirlababpjscianjur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606238534703-2tash15a0skruepjapl4lt2oaukf0vj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuQPTqxJu7nnvJuSDw4WkhQXbo-rdmiW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606238534703-2tash15a0skruepjapl4lt2oaukf0vj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

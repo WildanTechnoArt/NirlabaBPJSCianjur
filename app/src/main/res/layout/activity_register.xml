@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.RegisterActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/toolbar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/til_namapetani"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginEnd="16dp"
+               android:hint="@string/nama_petani"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent">
+
+               <com.google.android.material.textfield.TextInputEditText
+                   android:id="@+id/input_namapetani"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:inputType="textPersonName" />
+
+           </com.google.android.material.textfield.TextInputLayout>
+
+           <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/til_des"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:hint="@string/desa"
+               app:layout_constraintEnd_toEndOf="@+id/til_namapetani"
+               app:layout_constraintStart_toStartOf="@+id/til_namapetani"
+               app:layout_constraintTop_toBottomOf="@+id/til_namapetani">
+
+               <com.google.android.material.textfield.TextInputEditText
+                   android:id="@+id/input_des"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:inputType="textPersonName" />
+
+           </com.google.android.material.textfield.TextInputLayout>
+
+           <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/til_segmen"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:hint="@string/segmen"
+               app:layout_constraintEnd_toEndOf="@+id/til_des"
+               app:layout_constraintStart_toStartOf="@+id/til_des"
+               app:layout_constraintTop_toBottomOf="@+id/til_des">
+
+               <com.google.android.material.textfield.TextInputEditText
+                   android:id="@+id/input_segmen"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:inputType="textPersonName" />
+
+           </com.google.android.material.textfield.TextInputLayout>
+
+           <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/til_subsegmen"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:hint="@string/subsegmen"
+               app:layout_constraintEnd_toEndOf="@+id/til_segmen"
+               app:layout_constraintStart_toStartOf="@+id/til_segmen"
+               app:layout_constraintTop_toBottomOf="@+id/til_segmen">
+
+               <com.google.android.material.textfield.TextInputEditText
+                   android:id="@+id/input_subsegmen"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:inputType="textPersonName" />
+
+           </com.google.android.material.textfield.TextInputLayout>
+
+           <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/til_kec"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:hint="@string/kecamatan"
+               app:layout_constraintEnd_toEndOf="@+id/til_subsegmen"
+               app:layout_constraintStart_toStartOf="@+id/til_subsegmen"
+               app:layout_constraintTop_toBottomOf="@+id/til_subsegmen">
+
+               <com.google.android.material.textfield.TextInputEditText
+                   android:id="@+id/input_kec"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:inputType="textPersonName" />
+
+           </com.google.android.material.textfield.TextInputLayout>
+
+           <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/til_ubinan"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:hint="@string/tgl_ubinan"
+               app:layout_constraintEnd_toEndOf="@+id/til_kec"
+               app:layout_constraintStart_toStartOf="@+id/til_kec"
+               app:layout_constraintTop_toBottomOf="@+id/til_kec">
+
+               <com.google.android.material.textfield.TextInputEditText
+                   android:id="@+id/input_ubinan"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:inputType="textPersonName" />
+
+           </com.google.android.material.textfield.TextInputLayout>
+
+           <com.google.android.material.button.MaterialButton
+               android:id="@+id/btn_register"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="16dp"
+               android:text="@string/btn_register"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintEnd_toEndOf="@+id/til_ubinan"
+               app:layout_constraintHorizontal_bias="0.54"
+               app:layout_constraintStart_toStartOf="@+id/til_ubinan"
+               app:layout_constraintTop_toBottomOf="@+id/til_ubinan"
+               app:layout_constraintVertical_bias="0.0" />
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</LinearLayout>

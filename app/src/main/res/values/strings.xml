@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nirlaba BPS Kabupaten Cianjur</string>
+    <string name="input_phone_number">Nomor Telepon</string>
+    <string name="btn_login">Login</string>
+    <string name="tv_verification">Aplikasi Akan Mengirim SMS Berupa Kode Verifikasi pada Nomor dibawah ini:</string>
+    <string name="_62">+62</string>
+    <string name="input_code">Masukan 6-Digit Kode</string>
+    <string name="tv_process">Sedang Memproses, Mohon Tunggu…</string>
+    <string name="btn_verification">Verifikasi</string>
+    <string name="btn_resend">Kirim Ulang Kode</string>
+    <string name="btn_logout">Logout</string>
+    <string name="resend_code">Mengirim Ulang Kode Verifikasi</string>
+    <string name="verification_process">Kode Verifikasi Sedang Diproses....</string>
+    <string name="request_error">Terjadi Kesalahan, Silakan Coba Lagi</string>
+    <string name="request_logout">Logout Berhasil</string>
+    <string name="nama_petani">Nama Petani</string>
+    <string name="desa">Desa</string>
+    <string name="segmen">Segmen</string>
+    <string name="subsegmen">Subsegmen</string>
+    <string name="kecamatan">Kecamatan</string>
+    <string name="tgl_ubinan">Tgl Ubinan</string>
+    <string name="btn_register">Daftar</string>
+</resources>
